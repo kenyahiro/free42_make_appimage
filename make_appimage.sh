@@ -31,4 +31,4 @@ if [ ! -f linuxdeploy-x86_64.AppImage ]; then
 fi
 
 # create AppImage file.
-./linuxdeploy-x86_64.AppImage --appdir ${app_dir} --output appimage
+OUTPUT=Free42-x86_64.AppImage ./linuxdeploy-x86_64.AppImage --appdir ${app_dir} --output appimage
